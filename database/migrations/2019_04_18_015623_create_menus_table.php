@@ -19,7 +19,7 @@ class CreateMenusTable extends Migration
             $table->string('nama');
             $table->string('kategori');
             $table->string('stok');
-            $table->string('gambar');
+            $table->string('gambar')->nullable();
             $table->string('harga');
             $table->timestamps();
             $table->foreign('id_kantin')->references('id')->on('kantins')->onUpdate('cascade')->onDelete('cascade');

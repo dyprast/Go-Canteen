@@ -14,7 +14,7 @@
         </div>
     </div>
     <div class="row">
-        <form method="POST" action="{{ route('categorySave') }}" enctype="multipart/form-data" class="needs-validation" novalidate="" style="width: 100%;display: flex;flex-wrap:wrap;">
+        <form method="POST" action="{{ route('kantinSave') }}" enctype="multipart/form-data" class="needs-validation" novalidate="" style="width: 100%;display: flex;flex-wrap:wrap;">
             @csrf
             <div class="col-12 col-lg-3">
                 <div class="card">
